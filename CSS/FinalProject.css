@@ -5,15 +5,15 @@ body{
 }
 
 /*NAV-BAR*/
-a{
-    text-decoration: none;
-}
+
 
 .line{
     text-align: center;
     background-color: #026c45;
     width: 100%;
     margin-top: 0;
+    position: fixed;
+    z-index: 1;
 }
 .line h1{
     margin: 0;
@@ -22,6 +22,10 @@ a{
     padding-top: 10px;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
+}
+.line a{
+    text-decoration: none;
+    color:white;
 }
 
 .nav{
@@ -33,6 +37,7 @@ a{
     background-color: #026c45;
     height: 50px;
     padding-top: 20px;
+    margin-top: 68.4px;
 }
 
 .nav a{
@@ -48,8 +53,11 @@ a{
     font-family: 'Indie Flower', cursive;
 }
 
-.nav img{
-    width: 100%;
+#logo{
+    height: 181px;
+    position: fixed;
+    float:left;
+    z-index: 1;
 }
 
 .nav a:hover{
@@ -67,8 +75,61 @@ a{
 }
 
 /*HOME-PAGE*/
+.mainHome{
+    position: absolute;
+    margin-top: 225px;
+    width: 100%;
+}
+.mainHome img{
+    width: 30%;
+    margin-right: 15%;
+    float:right;
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+.mainQuote{
+    width: 30%;
+    float:left;
+    margin-left: 15%;
+    background-image: url(../Pictures/hjem2.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 500px;
+    border-radius: 25px;
+}
+.mainQuote h2{
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    padding: 15% 20% 0 20%;
+    text-shadow: 0 0 5px black;
+    font-size: 40px;
+}
+.mainQuote p{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    margin-left: 20%;
+    text-shadow: 0 0 5px black;
+    font-size: 20px;
+}
 
 
+
+
+/*CONATACTUS-PAGE*/
+.sources{
+    margin: 100px 0 0 150px;
+}
+
+.link li a{
+    color: black;
+    line-height: 1.5;
+}
+
+.link li a:hover{
+    text-decoration: underline;
+}
 
 
 
