@@ -119,8 +119,16 @@ body{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 150px 0 0 150px;
+    margin: 150px 0 0 80px;
     position: absolute;
+    background-color:#026c45; 
+    padding: 0 200px 20px 20px;
+    border-radius: 25px;
+}
+
+.sourcestitle{
+    color: white;
+    font-family: 'Indie Flower';
 }
 
 .link li a{
@@ -159,6 +167,7 @@ body{
     position: fixed;
     padding: 150px 0 0 0;
 }
+
 
 
 
