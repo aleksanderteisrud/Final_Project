@@ -124,7 +124,7 @@ body{
 }
 
 .link li a{
-    color: black;
+    color: blue;
     line-height: 1.5;
 }
 
@@ -133,7 +133,32 @@ body{
 }
 
 
+/*PROBLEM*/
+.problem{
+    width: 55%;
+    padding: 200px 0 50px 80px;
+    line-height: 1.5;
+    position: absolute;
+}
 
+.problem h1{
+    font-weight: 700;
+}
+
+.problem h2{
+    padding: 0 0 60px 0;
+}
+
+.holdinghands{
+    width: 40%;
+    float: right;
+}
+
+#hands{
+    width: 460px;
+    position: fixed;
+    padding: 150px 0 0 0;
+}
 
 
 
