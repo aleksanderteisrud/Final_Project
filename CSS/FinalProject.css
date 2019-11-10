@@ -5,7 +5,19 @@ body{
 }
 
 /*NAV-BAR*/
+#applestore{
+    height: 35px;
+    float: right;
+    z-index: 3;
+    margin: 0;
+}
 
+#googleplay{
+    width: 100px;
+    float: right;
+    z-index: 3;
+    margin: 0;
+}
 
 .line{
     text-align: center;
@@ -13,13 +25,14 @@ body{
     width: 100%;
     margin-top: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 2;
 }
 .line h1{
     margin: 0;
     color: white;
     text-decoration: overline;
     padding-top: 10px;
+    padding-bottom: 2px;
     font-family: 'Indie Flower', cursive;
     font-size: 40px;
 }
@@ -40,13 +53,13 @@ body{
     margin-top: 68.4px;
 }
 
-.nav a{
+.buttons{
     padding: 10px 20px 10px 20px;
     background-color: #53350A;
     color: white;
     text-align: center;
     margin: 50px 20px 0 20px;
-    z-index: 2;
+    z-index: 3;
     text-decoration: none;
     font-size: 25px;
     border-radius: 25px;
@@ -57,10 +70,10 @@ body{
     height: 181px;
     position: fixed;
     float:left;
-    z-index: 1;
+    z-index: 2;
 }
 
-.nav a:hover{
+.buttons:hover{
     color: white;
     box-shadow: 0 0 10px black;
     transition-duration: 0.3s;
@@ -81,30 +94,31 @@ body{
     width: 100%;
 }
 .mainHome img{
-    width: 30%;
+    width: 20%;
     margin-right: 15%;
     float:right;
     height: 400px;
     width: 500px;
     border-radius: 25px;
+    margin-top: 100px;
 }
 
 .mainQuote{
     width: 30%;
     float:left;
     margin-left: 15%;
-    background-image: url(../Pictures/hjem2.jpg);
     background-repeat: no-repeat;
     height: 400px;
     width: 500px;
     border-radius: 25px;
 }
 .mainQuote h2{
-    color: white;
+    color: black;
     font-family: 'Indie Flower', cursive;
     padding: 15% 20% 0 20%;
-    text-shadow: 0 0 5px black;
     font-size: 40px;
+    float: right;
+    margin-bottom: 200px;
 }
 .mainQuote p{
     color:white;
@@ -161,9 +175,16 @@ body{
 }
 
 
+/*Our idea*/
 
+.ourIdea{
+    width: 100%;
+    text-align: center;
+}
 
-
+.ourIdea img{
+    padding: 200px 0 0 0;
+}
 
 
 
