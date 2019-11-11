@@ -259,6 +259,15 @@ body{
     height: 430px;
     margin-bottom: 20px;
 }
+#pictitle{
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+#description{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
 
 /*CONTACT US-PAGE*/
 .sources{
