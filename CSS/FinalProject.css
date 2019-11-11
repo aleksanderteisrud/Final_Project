@@ -92,8 +92,9 @@ body{
 /*HOME-PAGE*/
 .mainHome{
     position: absolute;
-    margin-top: 225px;
+    margin-top: 170px;
     width: 100%;
+    position: absolute;
 }
 .mainHome img{
     width: 20%;
@@ -106,22 +107,19 @@ body{
 }
 
 .mainQuote{
-    width: 30%;
     float:left;
-    margin-left: 15%;
     background-repeat: no-repeat;
-    height: 400px;
-    width: 500px;
+    width: 800px;
     border-radius: 25px;
+    margin-left: 250px;
 }
 .mainQuote h2{
     color: black;
     font-family: 'Indie Flower', cursive;
-    padding: 15% 20% 0 20%;
     font-size: 40px;
     float: right;
-    margin-bottom: 200px;
     font-family: 'Roboto', sans-serif;
+    text-align: center;
 }
 .mainQuote p{
     color:white;
@@ -291,6 +289,7 @@ body{
 .link li a:hover{
     text-decoration: underline;
 }
+
 
 
 
