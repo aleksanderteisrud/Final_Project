@@ -130,33 +130,6 @@ body{
     font-size: 20px;
 }
 
-
-
-
-/*CONTACT US-PAGE*/
-.sources{
-    margin: 150px 0 0 80px;
-    position: absolute;
-    background-color:#026c45; 
-    padding: 0 200px 20px 20px;
-    border-radius: 25px;
-}
-
-.sourcestitle{
-    color: white;
-    font-family: 'Indie Flower';
-}
-
-.link li a{
-    color: blue;
-    line-height: 1.5;
-}
-
-.link li a:hover{
-    text-decoration: underline;
-}
-
-
 /*PROBLEM*/
 .problem{
     width: 55%;
@@ -190,8 +163,8 @@ body{
     position: absolute;
 }
 .ourideatext1{
-    margin: 120px 50px 0 450px;
-    border-radius: 15px;
+    margin: 120px 0 0 500px;
+    border-bottom-left-radius: 100px;
     background-color: white;
     padding: 10px 40px 10px 40px;
     line-height: 1.5;
@@ -223,6 +196,28 @@ body{
     padding: 590px 0 0 0;
 }
 
+/*CONTACT US-PAGE*/
+.sources{
+    margin: 150px 0 0 80px;
+    position: absolute;
+    background-color:rgb(230,230,230); 
+    padding: 0 200px 20px 20px;
+    border-radius: 25px;
+}
+
+.sourcestitle{
+    color: black;
+    font-family: 'Indie Flower';
+}
+
+.link li a{
+    color: blue;
+    line-height: 1.5;
+}
+
+.link li a:hover{
+    text-decoration: underline;
+}
 
 
 
