@@ -121,6 +121,7 @@ body{
     font-size: 40px;
     float: right;
     margin-bottom: 200px;
+    font-family: 'Roboto', sans-serif;
 }
 .mainQuote p{
     color:white;
@@ -128,6 +129,7 @@ body{
     margin-left: 20%;
     text-shadow: 0 0 5px black;
     font-size: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*PROBLEM*/
@@ -140,10 +142,13 @@ body{
 
 .problem h1{
     font-weight: 700;
+    font-family: 'Roboto', sans-serif;
 }
 
 .problem h2{
     padding: 0 0 60px 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
 }
 
 .holdinghands{
@@ -162,6 +167,14 @@ body{
 .ourideatext{
     position: absolute;
 }
+.ourideatext h1{
+    font-family: 'Roboto', sans-serif;
+}
+.ourideatext h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
 .ourideatext1{
     margin: 120px 0 0 500px;
     border-bottom-left-radius: 100px;
@@ -178,8 +191,11 @@ body{
 
 
 .ourideatext2{
-    margin: 10px 400px 0 400px; 
+    margin: 3.5% 35% 0 35%; 
     text-align: center;
+    background-color:white;
+    padding: 5px 5px 5px 5px;
+    border-radius: 15px;
 }
 
 #solution{
