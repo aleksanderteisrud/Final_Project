@@ -188,22 +188,24 @@ body{
 /*Our idea*/
 .ourideatext{
     position: absolute;
-    background-image: url(../Pictures/povertyafrica.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 .ourideatext1{
-    margin: 150px 250px 0 250px;
+    margin: 120px 50px 0 450px;
     border-radius: 15px;
     background-color: white;
     padding: 10px 40px 10px 40px;
+    line-height: 1.5;
+}
+.text1wp{
+    background-image: url(../Pictures/povertyafrica.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
 }
 
-.text2background{
-    background-color: darkgrey;
-}
+
 .ourideatext2{
-   margin: 55px 400px 0 400px; 
+    margin: 10px 400px 0 400px; 
     text-align: center;
 }
 
@@ -217,7 +219,8 @@ body{
 }
 
 .ouridea img{
-    padding: 500px 0 0 0;
+    z-index: 1;
+    padding: 590px 0 0 0;
 }
 
 
