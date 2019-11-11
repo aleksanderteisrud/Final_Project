@@ -195,6 +195,53 @@ body{
     z-index: 1;
     padding: 590px 0 0 0;
 }
+.column1{
+    width: 35%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+
+.column2{
+    width: 35%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 10%;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+}
+
+.column3{
+    width: 35%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-left: 10%;
+    border-radius: 10px;
+    float: left;
+    text-align: center;
+}
+
+.column4{
+    width: 35%;
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    margin-right: 10%;
+    border-radius: 10px;
+    float: right;
+    text-align: center;
+}
 
 /*CONTACT US-PAGE*/
 .sources{
