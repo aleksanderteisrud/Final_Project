@@ -282,7 +282,7 @@ body{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 150px 0 0 80px;
+    margin: 970px 0 0 80px;
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     padding: 0 200px 20px 20px;
@@ -301,6 +301,34 @@ body{
 
 .link li a:hover{
     text-decoration: underline;
+}
+.contactinformation{
+    font-family: 'Indie Flower';
+    padding: 0 200px 20px 20px;
+    background-color: rgba(255,255,255,0.8);
+    border-radius: 25px;
+    margin: 200px 0 20px 80px;
+    position: absolute;
+}
+
+.socialmedia{
+    padding: 20px 0 0 0;
+}
+
+.socialmedia img{
+    margin: 0 30px 0 0;
+}
+
+.profile{
+    background-color: rgba(255,255,255,0.8);
+    margin: 800px 80px 20px 80px;
+    border-radius: 25px;
+    padding: 30px 20px 20px 20px;
+    position: absolute;
+}
+
+.profile img{
+    
 }
 
 
