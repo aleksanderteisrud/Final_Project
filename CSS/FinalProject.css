@@ -281,6 +281,23 @@ body{
     padding-right: 40px;
 }
 
+.howdoesitwork{
+    padding: 1250px 250px 0 250px;
+    position: absolute;
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.howdoesitwork h1{
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+.howdoesitwork h3{
+    font-weight: normal;
+    font-family: 'Roboto', sans-serif;
+}
+
 /*CONTACT US-PAGE*/
 .sources{
     margin: 1000px 0 0 80px;
