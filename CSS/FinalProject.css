@@ -135,6 +135,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#appicon{
+    position: absolute;
+    margin: 0 0 0px 230px;
+}
 
 /*PROBLEM*/
 .problem{
