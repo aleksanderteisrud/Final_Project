@@ -283,7 +283,7 @@ body{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 970px 0 0 80px;
+    margin: 1000px 0 0 80px;
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     padding: 0 200px 20px 20px;
@@ -326,10 +326,25 @@ body{
     border-radius: 25px;
     padding: 30px 20px 20px 20px;
     position: absolute;
+    text-align: center;
 }
 
 .profile img{
-    
+    padding: 0 130px 0 130px;
+}
+
+.person1{
+    width: 10%;
+    float: left;
+}
+
+.person2{
+    width: 10%;
+}
+
+.person3{
+    width: 10%;
+    float: right;
 }
 
 
