@@ -94,11 +94,12 @@ body{
     position: absolute;
     margin-top: 130px;
     width: 100%;
-    background-image: linear-gradient(rgb(230,230,230),black);
+    background-image: linear-gradient(rgb(230,230,230),black 100px);
 }
 #homepic1{
     width: 20%;
     margin-right: 20px;
+    margin-top: 90px;
     float:right;
     height: 400px;
     width: 500px;
@@ -116,7 +117,7 @@ body{
     font-size: 40px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    margin-top: 70px;
+    margin-top: 90px;
     margin-left: 50px
 }
 .mainQuote h3{
