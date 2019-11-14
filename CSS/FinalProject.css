@@ -2,6 +2,7 @@
 body{
     margin: 0;
     padding: 0;
+    z-index: 1;
 }
 
 /*NAV-BAR*/
@@ -94,7 +95,7 @@ body{
     position: absolute;
     margin-top: 130px;
     width: 100%;
-    background-image: linear-gradient(rgb(230,230,230),black 100px);
+    background-image: linear-gradient(#026c45,black 80px);
 }
 #homepic1{
     width: 20%;
@@ -138,6 +139,17 @@ body{
 #appicon{
     position: absolute;
     margin: 0 0 0px 230px;
+}
+
+.hometext{
+    background-image: url(../Pictures/Helping-the-Poor.jpg);
+    background-color: grey;
+    background-blend-mode:multiply;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: 2;
+    margin-top: 400px;
 }
 
 /*PROBLEM*/
