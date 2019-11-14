@@ -98,7 +98,7 @@ body{
 }
 #homepic1{
     float:right;
-    height: 490px;
+    height: 550px;
     position: absolute;
     margin-left: 13px;
 }
@@ -140,12 +140,14 @@ body{
 
 .hometext{
     background-image: url(../Pictures/Helping-the-Poor.jpg);
-    filter:grayscale(100%);
+    filter:grayscale(50%);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     z-index: 2;
-    margin-top: 490px;
+    margin-top: 550px;
+    background-color: grey;
+    background-blend-mode: multiply;
 }
 
 .hometext2{
@@ -154,6 +156,15 @@ body{
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     font-size: 30px;
+    line-height: 1.8;
+}
+
+.mainhome2{
+    position: absolute;
+     font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 1230px 200px 30px 200px;
+    line-height: 2;
 }
 
 /*PROBLEM*/
