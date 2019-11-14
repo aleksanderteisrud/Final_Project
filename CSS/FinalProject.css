@@ -3,6 +3,8 @@ body{
     margin: 0;
     padding: 0;
     z-index: 1;
+    width:100%;
+    min-height:100%;
 }
 
 /*NAV-BAR*/
@@ -88,6 +90,37 @@ body{
     background-color: #03b775;
     box-shadow: 0 0 10px black;
     text-decoration: overline white;
+}
+
+/*Footer*/
+footer{
+    background-color: rgba(0,0,0,0.9);
+    height: 50px;
+    width:100%;
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    
+}
+
+footer img{
+    height:40px;
+    margin-top:5px;
+    margin-right: 45px;
+}
+
+footer p{
+    width: 50%;
+    float:right;
+    font-family: 'Indie Flower', cursive;
+    color:white;
+    margin-top: 7.5px;
+    margin-bottom: 7.5px;
+}
+footer span{
+    font-weight: bold;
+    font-size: 25px;
+    
 }
 
 /*HOME-PAGE*/
@@ -331,7 +364,7 @@ body{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 1200px 0 0 80px;
+    margin: 1200px 0 75px 80px;
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     padding: 0 200px 20px 20px;
@@ -379,14 +412,21 @@ body{
 
 .profile img{
     padding: 0 100px 0 100px;
+    width:175px;
 }
 
 .personstext{ 
-    column-count: 3; 
-    text-align: center; 
+   /* column-count: 3; */
+    text-align: center;
     margin: 0 50px 0 50px; 
-    padding: 0 30px 0 30px; 
+    padding: 0 30px 0 30px;
 } 
+
+.personstext p{
+    width: 380px;
+    margin-right: 0;
+    float:left;
+}
 
 
 
