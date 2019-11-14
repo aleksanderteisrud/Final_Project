@@ -369,19 +369,12 @@ body{
     padding: 0 130px 0 130px;
 }
 
-.person1{
-    width: 10%;
-    float: left;
-}
-
-.person2{
-    width: 10%;
-}
-
-.person3{
-    width: 10%;
-    float: right;
-}
+.personstext{ 
+    column-count: 3; 
+    text-align: center; 
+    margin: 0 50px 0 50px; 
+    padding: 0 30px 0 30px; 
+} 
 
 
 
