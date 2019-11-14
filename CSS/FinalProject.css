@@ -320,7 +320,7 @@ body{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 1000px 0 0 80px;
+    margin: 1200px 0 0 80px;
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     padding: 0 200px 20px 20px;
@@ -367,7 +367,7 @@ body{
 }
 
 .profile img{
-    padding: 0 130px 0 130px;
+    padding: 0 100px 0 100px;
 }
 
 .personstext{ 
