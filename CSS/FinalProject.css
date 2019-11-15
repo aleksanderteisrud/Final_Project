@@ -97,15 +97,15 @@ footer{
     background-color: rgba(0,0,0,0.9);
     height: 50px;
     width:100%;
-    position:fixed;
+    position:absolute;
     bottom: 0;
     text-align: center;    
 }
 
 footer img{
     height:40px;
-    margin-top:5px;
-    margin-right: 45px;
+    padding-top:5px;
+    padding-right: 45px;
 }
 
 footer p{
@@ -129,7 +129,7 @@ footer span{
     width: 100%;
 }
 #homepic1{
-    float:right;
+    right: 0;
     height: 550px;
     position: absolute;
     margin-left: 13px;
