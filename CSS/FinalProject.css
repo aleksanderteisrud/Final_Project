@@ -614,6 +614,61 @@ footer span{
     #povertyproblem, #climaproblem{
         width: 784px;
     }
+    .text1wp{
+        margin-top: 220px;
+    }
+    .ouridea img{
+        margin-top: 1050px;
+        width: 100%;
+    }
+    .ourideatext2{
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .ourideatext2 h1{
+        font-size: 50px;
+    }
+    .ourideatext2 h3{
+        font-size: 30px;
+    }
+    .column1{
+        width: 80%;
+        margin-left:10%;
+        height: 1000px;
+    }
+    .column2{
+        width: 80%;
+        margin-right:10%;
+        height: 1000px;
+    }
+    .column3{
+        width: 80%;
+        margin-left:10%;
+        height: 1000px;
+    }
+    .column4{
+        width: 80%;
+        margin-right:10%;
+        height: 1000px;
+    }
+    .appbakgrunn img{
+        width: 400px;
+    }
+    .appbakgrunn figcaption{
+        font-size: 40px;
+        margin-top: 30px;
+    }
+    .howdoesitwork{
+        width: 80%;
+        margin: 0 0 0 10%;
+    }
+    ]
+    .howdoesitwork h3{
+        font-size: 45px;
+    }
+    .howdoesitwork h1{
+        font-size: 65px;
+    }
 }
 
 
