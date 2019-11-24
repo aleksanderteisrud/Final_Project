@@ -100,9 +100,13 @@ footer{
     background-color: rgba(0,0,0,0.9);
     height: 50px;
     width:100%;
-    position:fixed;
+    position: fixed;
     bottom: 0;
+<<<<<<< Updated upstream
     text-align: center;    
+=======
+    text-align: center;
+>>>>>>> Stashed changes
 }
 
 footer img{
