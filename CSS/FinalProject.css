@@ -366,13 +366,12 @@ footer span{
 
 /*CONTACT US-PAGE*/
 .sources{
-    margin: 1100px 0 100px 10%;
+    margin: 1190px 0 100px 10%;
     padding-bottom: 25px;
     position: absolute;
     background-color: rgba(255,255,255,0.8);
     border-radius: 25px;
     width: 80%;
-    
 }
 
 .sourcestitle{
@@ -411,7 +410,7 @@ footer span{
     margin: 200px 0 0 0;
     position: absolute;
     width: 40%;
-    margin-left: 10%;
+    margin-left: 30%;
     text-align: center;
 }
 .contactinformation span{
@@ -420,6 +419,8 @@ footer span{
 .contactinformation h1{
     margin-left: 75px;
     margin-right: 75px;
+    font-size: 40px;
+    margin-top: 0;
 }
 .contactinformation h2{
     margin-left: 75px;
@@ -465,6 +466,8 @@ footer span{
 
 .profile1 img, .profile2 img, .profile3 img{
     width: 175px;
+    border-radius: 50%;
+    margin-top: 10px;
 }
 
 .personstext{ 
@@ -473,10 +476,19 @@ footer span{
     text-align: center;
 } 
 
+.profile h2{
+    font-family: 'indie flower', cursive;
+    font-size: 40px;
+    margin: 0;
+}
+
 .personstext p{
     width: 26.6%;
     margin-left: 5%;
     float:left;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'roboto', sans-serif;
 }
 .profile1, .profile2, .profile3{
     width: 26.6%;
