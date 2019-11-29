@@ -108,7 +108,7 @@ footer{
 footer img{
     height:40px;
     margin-top:5px;
-    margin-left: 150px;
+    margin-left: 75px;
 }
 
 footer p{
@@ -283,7 +283,7 @@ footer p{
 .ouridea img{
     position: relative;
     z-index: 0;
-    margin: 635px 0 0 0;
+    margin: 700px 0 0 0;
 }
 
 
@@ -567,6 +567,47 @@ footer p{
 
 /*MEDIA-querys*/
 
+@media (max-width: 1338px){
+    .ouridea img{
+        margin-top: 730px;
+    }
+}
+@media (max-width: 1256px){
+    .ouridea img{
+        margin-top: 760px;
+    }
+}
+@media (max-width: 1156px){
+    footer p{
+        width: 50%;
+        margin-right: 0;
+        text-align: center;
+    }
+    footer img{
+        margin-left: 75px;
+    }
+}
+@media (max-width: 1129px){
+    .ouridea img{
+        margin-top: 820px;
+    }
+}
+@media (max-width: 1085px){
+    .ouridea img{
+        margin-top: 880px;
+    }
+}
+@media (max-width: 1061px){
+    .ouridea img{
+        margin-top: 930px;
+    }
+}
+@media (max-width: 1041px){
+    .ouridea img{
+        margin-top: 980px;
+    }
+}
+
 @media (max-width: 1150px){
     .hometext2{
         padding: 50px 150px 50px 150px;
@@ -658,7 +699,7 @@ footer p{
         height:70px;
         margin-top: 15px;
         float:left;
-        margin: 15px 0 0 45px
+        margin: 15px 0 0 100px
     }
     footer p{
         float:Right;
