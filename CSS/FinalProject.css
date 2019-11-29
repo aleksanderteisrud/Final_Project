@@ -102,31 +102,26 @@ footer{
     width:100%;
     position: fixed;
     bottom: 0;
-<<<<<<< Updated upstream
-    text-align: center;    
-=======
     text-align: center;
->>>>>>> Stashed changes
 }
 
 footer img{
     height:40px;
     margin-top:5px;
-    margin-right: 45px;
+    margin-left: 150px;
 }
 
 footer p{
-    width: 50%;
+    width: 25%;
     float:right;
     font-family: 'Indie Flower', cursive;
     color:white;
     margin-top: 7.5px;
     margin-bottom: 7.5px;
-}
-footer span{
-    font-weight: bold;
+    text-align: right;
     font-size: 25px;
-    
+    font-weight: bold;
+    margin-right: 25%;
 }
 
 /*HOME-PAGE*/
@@ -288,7 +283,7 @@ footer span{
 .ouridea img{
     position: relative;
     z-index: 0;
-    margin: 590px 0 0 0;
+    margin: 635px 0 0 0;
 }
 
 
@@ -299,7 +294,7 @@ footer span{
     text-align: center;
     margin-left: 144px;
     margin-top: 50px;
-    height: 520px;
+    height: 550px;
     float:left;
 }
 
@@ -310,7 +305,7 @@ footer span{
     border-radius: 10px;
     text-align: center;
     margin-top:50px;
-    height: 520px;
+    height: 550px;
     float:right;
 }
 
@@ -322,7 +317,7 @@ footer span{
     margin-left:144px;
     border-radius: 10px;
     text-align: center;
-    height: 520px;
+    height: 550px;
 }
 
 .column4{
@@ -334,7 +329,7 @@ footer span{
     border-radius: 10px;
     float: right;
     text-align: center;
-    height: 520px;
+    height: 550px;
     margin-bottom: 20px;
 }
 
@@ -382,11 +377,13 @@ footer span{
 .sources h1{
     margin-left: 100px;
     margin-right: 100px;
+    font-size: 30px;
 }
 
 .sources h2{
     margin-left: 100px;
     margin-right: 100px;
+    font-size: 40px;
 }
 
 .sources li{
@@ -666,12 +663,8 @@ footer span{
     footer p{
         float:Right;
         width: 40%;
-        font-size:15px;
+        font-size:40px;
         margin-top: 20px;
-    }
-    footer span{
-        font-size: 40px;
-        
     }
     #hands{
         display: none;
@@ -698,7 +691,7 @@ footer span{
         padding:0;
     }
     .ouridea img{
-        margin-top: 1825px;
+        margin-top: 2125px;
         width: 100%;
     }
     .ourideatext2{
