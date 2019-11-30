@@ -7,6 +7,12 @@ body{
     min-height:100%;
 }
 
+/*a:focus, button:focus, input:focus, h1:focus, h2:focus, h3:focus, p:focus, img:focus, figcaption:focus{
+    outline: none;
+}*/
+
+
+
 /*NAV-BAR*/
 #applestore{
     height: 35px;
