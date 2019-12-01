@@ -343,7 +343,41 @@ footer p{
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
+
+#pictitle1{
+     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pictitle2{
+     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+#pictitle3{
+     font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
 #description{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#description1{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#description2{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#description3{
     font-family: 'Roboto', sans-serif;
     padding-left: 40px;
     padding-right: 40px;
