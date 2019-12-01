@@ -16,14 +16,14 @@ body{
 
 /*NAV-BAR*/
 #applestore{
-    height: 35px;
+    height: 50%;
     float: right;
     padding-top: 15px;
     margin-right: 3%;
 }
 
 #googleplay{
-    height: 35px;
+    height: 50%;
     float: right;
     padding-top: 15px;
     margin-right: 10px;
@@ -69,11 +69,11 @@ body{
 }
 
 .buttons{
-    padding: 10px 20px 10px 20px;
+    padding: 10px 1% 10px 1%;
     background-color: #53350A;
     color: white;
     text-align: center;
-    margin: 50px 20px 0 20px;
+    margin: 20px 1.5% 0 1.5%;
     z-index: 3;
     text-decoration: none;
     font-size: 25px;
@@ -185,7 +185,7 @@ footer p{
 }
 
 .hometext2{
-    padding: 50px 300px 50px 300px;
+    padding: 50px 20% 50px 20%;
     text-align: center;
     color: white;
     text-shadow: 0 0 10px black;
@@ -197,7 +197,7 @@ footer p{
 .mainhome2{
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 0 200px 30px 200px;
+    padding: 0 15% 30px 15%;
     line-height: 2;
     margin-bottom: 50px;
 }
@@ -210,11 +210,11 @@ footer p{
     position: absolute;
 }
 #povertyproblem{
-    width: 600px;
+    width: 90%;
     filter: grayscale(50%);
 }
 #climaproblem{
-    width: 600px;
+    width: 90%;
     filter: grayscale(70%);
 }
 
@@ -252,9 +252,18 @@ footer p{
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
 }
+.ourideatext2 h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+.ourideatext2 h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 120%;
+}
 
 .ourideatext1{
-    margin: 120px 0 0 500px;
+    margin: 120px 0 0 35%;
     border-bottom-left-radius: 100px;
     background-color: rgba(255,255,255,0.8);
     padding: 10px 40px 10px 40px;
@@ -291,29 +300,33 @@ footer p{
     position: relative;
     z-index: 0;
     margin: 700px 0 0 0;
+    width: 90%;
 }
 
 
 .column1{
+    height: 150%;
     width: 35%;
     background-color:white;
     border-radius: 10px;
     text-align: center;
-    margin-left: 144px;
+    margin-left: 10%;
     margin-top: 50px;
-    height: 550px;
     float:left;
+    padding-top: 50px;
+    height: 550px;
 }
 
 .column2{
     width: 35%;
     background-color:white;
-    margin-right: 144px;
+    margin-right: 10%;
     border-radius: 10px;
     text-align: center;
     margin-top:50px;
-    height: 550px;
     float:right;
+    padding-top: 50px;
+    height: 550px;
 }
 
 .column3{
@@ -321,9 +334,10 @@ footer p{
     width: 35%;
     background-color:white;
     margin-top: 50px;
-    margin-left:144px;
+    margin-left: 10%;
     border-radius: 10px;
     text-align: center;
+    padding-top: 50px;
     height: 550px;
 }
 
@@ -332,12 +346,17 @@ footer p{
     width: 35%;
     background-color:white;
     margin-top:50px;
-    margin-right: 144px;
+    margin-right: 10%;
     border-radius: 10px;
     float: right;
     text-align: center;
-    height: 550px;
+    padding-top: 50px;
     margin-bottom: 20px;
+    height: 550px;
+}
+
+hr{
+    width: 100%;
 }
 
 #pictitle{
@@ -385,7 +404,7 @@ footer p{
 }
 
 .howdoesitwork{
-    margin: 1250px 250px 100px 250px;
+    margin: 0 15% 100px 15%;
     line-height: 2;
 }
 
@@ -453,19 +472,19 @@ footer p{
     border-radius: 25px;
     margin: 200px 0 0 0;
     position: absolute;
-    width: 40%;
-    margin-left: 30%;
+    width: 60%;
+    margin-left: 20%;
     text-align: center;
 }
 .contactinformation h1{
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
     font-size: 40px;
     margin-top: 0;
 }
 .contactinformation h2{
-    margin-left: 75px;
-    margin-right: 75px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
     font-weight: normal;
     font-family: 'roboto', sans-serif;
 }
@@ -666,19 +685,7 @@ footer p{
 }
 @media(max-width: 1041px){
     .ouridea img{
-        margin-top: 980px;
-    }
-}
-
-@media(max-width: 1150px){
-    .hometext2{
-        padding: 50px 150px 50px 150px;
-    }
-}
-
-@media(max-width: 1042px){
-    .hometext2{
-        padding: 50px 75px 50px 75px;
+        margin-top: 1000px;
     }
 }
 
@@ -790,7 +797,7 @@ footer p{
         padding:0;
     }
     .ouridea img{
-        margin-top: 2125px;
+        margin-top: 2000px;
         width: 100%;
     }
     .ourideatext2{
@@ -806,22 +813,22 @@ footer p{
     .column1{
         width: 80%;
         margin-left:10%;
-        height: 1000px;
+        height:1000px;
     }
     .column2{
         width: 80%;
         margin-right:10%;
-        height: 1000px;
+        height:1000px;
     }
     .column3{
         width: 80%;
         margin-left:10%;
-        height: 1000px;
+        height:1000px;
     }
     .column4{
         width: 80%;
         margin-right:10%;
-        height: 1000px;
+        height:1000px;
     }
     .appbakgrunn img{
         width: 400px;
