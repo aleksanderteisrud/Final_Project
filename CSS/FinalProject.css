@@ -8,12 +8,6 @@ body{
     background-color: black;
 }
 
-/*a:focus, button:focus, input:focus, h1:focus, h2:focus, h3:focus, p:focus, img:focus, figcaption:focus{
-    outline: none;
-}*/
-
-
-
 /*NAV-BAR*/
 #applestore{
     height: 50%;
@@ -535,7 +529,6 @@ hr{
 }
 
 .personstext{ 
-   /* column-count: 3; */
     width: 100%;
     text-align: center;
 } 
@@ -635,7 +628,6 @@ hr{
 
 /*MEDIA-querys*/
 
-/* I tried...funka faen ikkje*/
 @media (max-width: 5000px) and (min-width:1660px){
     #appicon{
         width: 200px;
