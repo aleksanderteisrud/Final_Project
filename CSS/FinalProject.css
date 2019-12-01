@@ -402,6 +402,11 @@ footer p{
     color: blue;
     line-height: 1.5;
 }
+.linkLast li a{
+    color: blue;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
 
 .link li a:hover{
     text-decoration: underline;
