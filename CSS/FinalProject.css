@@ -5,6 +5,7 @@ body{
     z-index: 1;
     width:100%;
     min-height:100%;
+    background-color: black;
 }
 
 /*a:focus, button:focus, input:focus, h1:focus, h2:focus, h3:focus, p:focus, img:focus, figcaption:focus{
@@ -188,7 +189,7 @@ footer p{
     text-align: center;
     color: white;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-    font-size: 30px;
+    font-size: 150%;
     line-height: 1.8;
     font-family: 'Roboto Slab', serif;
 }
@@ -616,23 +617,29 @@ footer p{
 /*MEDIA-querys*/
 
 /* I tried...funka faen ikkje*/
-@media (max-width: 1880px){
-    mainQuote{
-        height: ¨100%;
+@media (max-width: 5000px) and (min-width:1660px){
+    #appicon{
+        width: 200px;
+    }
+    .mainQuote h2{
+        font-size: 55px;
+    }
+    .mainQuote h3{
+        font-size: 30px;
     }
 }
 
-@media (max-width: 1338px){
+@media(max-width: 1338px){
     .ouridea img{
         margin-top: 730px;
     }
 }
-@media (max-width: 1256px){
+@media(max-width: 1256px){
     .ouridea img{
         margin-top: 760px;
     }
 }
-@media (max-width: 1156px){
+@media(max-width: 1156px){
     footer p{
         width: 50%;
         margin-right: 0;
@@ -642,40 +649,40 @@ footer p{
         margin-left: 75px;
     }
 }
-@media (max-width: 1129px){
+@media(max-width: 1129px){
     .ouridea img{
         margin-top: 820px;
     }
 }
-@media (max-width: 1085px){
+@media(max-width: 1085px){
     .ouridea img{
         margin-top: 880px;
     }
 }
-@media (max-width: 1061px){
+@media(max-width: 1061px){
     .ouridea img{
         margin-top: 930px;
     }
 }
-@media (max-width: 1041px){
+@media(max-width: 1041px){
     .ouridea img{
         margin-top: 980px;
     }
 }
 
-@media (max-width: 1150px){
+@media(max-width: 1150px){
     .hometext2{
         padding: 50px 150px 50px 150px;
     }
 }
 
-@media (max-width: 1042px){
+@media(max-width: 1042px){
     .hometext2{
         padding: 50px 75px 50px 75px;
     }
 }
 
-@media 
+@media only screen and
     (max-device-width: 768px){
     .dropdownresponsive{
         display:contents;
@@ -736,6 +743,7 @@ footer p{
     .hometext2 h1{
         text-shadow: 0 0 10px black;
         margin-top: 710px;
+        
     }
     .hometext2{
         background-image:url(../Pictures/Helping-the-Poor.jpg);
