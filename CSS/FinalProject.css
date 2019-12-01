@@ -581,6 +581,13 @@ footer p{
 
 /*MEDIA-querys*/
 
+/* I tried...funka faen ikkje*/
+@media (max-width: 1880px){
+    mainQuote{
+        height: ¨100%;
+    }
+}
+
 @media (max-width: 1338px){
     .ouridea img{
         margin-top: 730px;
